@@ -1,22 +1,29 @@
 :root {
-
+  --live-indicator-shadow: hsla(0, 79%, 63%, 0.5);
+  --rich-black-fogra-30:   hsl(219, 32%, 10%);
   --rich-black-fogra-29:   hsl(222, 25%, 10%);
-
+  --oxford-blue-50:        hsla(218, 39%, 14%, 0.8);
+  --oxford-blue:           hsl(218, 39%, 14%);
   --light-azure:           hsl(214, 84%, 56%);
   --off-white:             hsl(0, 0%, 88%);
-  
+  --white:                 hsl(0, 0%, 100%);
+  --azure:                 hsl(211, 100%, 50%);
 
  
 
   --ff-inter: "Inter", sans-serif;
 
-
-
-
+  --section-heading: 40px;
 
   
 
+  --px: 50px; 
 
+}
+@media only screen and (max-width: 1026px) {
+  .banner {
+      display: none;
+  }
 }
 
 
