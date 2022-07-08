@@ -75,13 +75,13 @@ header, nav { background: var(--rich-black-fogra-29); }
 
 
 
-
-.navbar {
+/* 
+/* .navbar {
   height: 100px;
   display:         flex;
   justify-content: space-between;
   align-items:     center;
-}
+} */ */
 
 .navbar-brand{width:251px;}
 
@@ -104,7 +104,7 @@ nav { margin-right: 250px; }
 
 
 
-/* .navbar-signin {
+.navbar-signin {
   display:     flex;
   align-items: center;
   font-size: var(--fs-sm);
@@ -112,7 +112,7 @@ nav { margin-right: 250px; }
 
 
 
-.navbar-signin:hover span { color: var(--light-azure); } */
+.navbar-signin:hover span { color: var(--light-azure); }
 
 
 .banner { margin-bottom: 60px; }
