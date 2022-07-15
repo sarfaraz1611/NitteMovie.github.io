@@ -66,6 +66,11 @@ header, nav { background: var(--rich-black-fogra-29); }
 
 
 
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
 
 
 
@@ -265,29 +270,43 @@ nav { margin-right: 250px; }
 
 // login styles
 
- 
 
-.containers {
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
   position: relative;
   width: 100%;
-
+  background-color: #fff;
   min-height: 100vh;
   overflow: hidden;
-} 
+}
 
 
 
- .signin-signup {
+.signin-signup {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
   left: 75%;
   width: 50%;
-  /* transition: 1s 0.7s ease-in-out; */
-  /* display: grid; */
-  /* grid-template-columns: 1fr; */
-  /* z-index: 5; */
-} 
+  transition: 1s 0.7s ease-in-out;
+  display: grid;
+  grid-template-columns: 1fr;
+  z-index: 5;
+}
+
 form {
   display: flex;
   align-items: center;
@@ -378,18 +397,30 @@ form {
   grid-template-columns: repeat(2, 1fr);
 }
 
-
+.container:before {
+  content: "";
+  position: absolute;
+  height: 2000px;
+  width: 2000px;
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  /* transition: 1.8s ease-in-out; */
+  /* border-radius: 50%; */
+  z-index: 2;
+}
 
 
 .panel {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-around;
-  text-align: center;
+  text-align: center; */
   z-index: 3;
   padding: 3rem 17% 2rem 12%;
-} */
+}
 
 
 
