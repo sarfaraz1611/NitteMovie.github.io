@@ -266,7 +266,7 @@ nav { margin-right: 250px; }
 // login styles
 
  
-
+/* 
 .containers {
   position: relative;
   width: 100%;
@@ -389,9 +389,21 @@ form {
   text-align: center;
   z-index: 3;
   padding: 3rem 17% 2rem 12%;
-} */
+} */ */
 
+.signin-signup{
 
+}
+
+.sign-in-form{
+
+}
+.title{
+
+}
+.input-field{
+  max-width:250px;
+}
 
 
 
